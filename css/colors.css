@@ -1,5 +1,7 @@
 :root {
     --body-background-color: #525659;
-    --primary-color: #52ac2a;
-    --container-shadow: 2px 5px 5px #2a2a2a
+    --title-color: #52ac2a;
+    --border-color: #6aa84f;
+    --container-shadow: 2px 5px 5px #2a2a2a;
+    --curiosity-layer-shadow: rgba(255, 255, 255, .55)
 }

@@ -1,0 +1,50 @@
+@import "colors.css";
+
+body {
+    background: linear-gradient(
+            var(--layer-shadow), var(--layer-shadow)
+    ), url("../imagens/desenho-loucao.jpg") no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+#container {
+    padding: 10% 25% 10% 25%;
+    margin: 0 auto 0 auto;
+    max-width: 800px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 48px;
+    text-align: center;
+}
+
+thead {
+    background-color: var(--table-head);
+}
+
+th, td {
+    padding: 5px 55px;
+}
+
+th {
+    color: white;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.main-head {
+    font-size: 18px;
+}
+
+.secondary-head {
+    font-size: 15px;
+}

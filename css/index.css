@@ -1,7 +1,7 @@
 @import "colors.css";
 
 body {
-    background-color: var(--body-background-color);
+    background-color: var(--body-index-background-color);
 }
 
 #container {
@@ -10,15 +10,6 @@ body {
     max-width: 650px;
     background-color: white;
     box-shadow: var(--container-shadow);
-}
-
-h1, h2 {
-    color: var(--title-color);
-    font-family: "Times New Roman", sans-serif;
-}
-
-h1 {
-    font-size: 28px;
 }
 
 h2 {
@@ -36,7 +27,7 @@ blockquote {
 
 #curiosity {
     background: linear-gradient(
-            var(--curiosity-layer-shadow), var(--curiosity-layer-shadow)
+            var(--layer-shadow), var(--layer-shadow)
     ), url("../imagens/fundo.png");
     border: 2px solid var(--border-color);
     padding-top: 4px;

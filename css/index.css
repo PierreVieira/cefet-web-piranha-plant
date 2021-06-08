@@ -30,9 +30,12 @@ blockquote {
             var(--layer-shadow), var(--layer-shadow)
     ), url("../imagens/fundo.png");
     border: 2px solid var(--border-color);
-    padding-top: 4px;
-    padding-bottom: 4px;
     padding-left: 16px;
+}
+
+#curiosity p {
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .image-title {
